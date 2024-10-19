@@ -41,21 +41,21 @@ This project implements an AI system to detect potential shoplifting in real-tim
 │   └── result.html
 ```
 
-##Preprocessing
+### Preprocessing:
 DataSet Preprocess: modify the data set to be loaded in a list then splitted into three sections Train,Validation and Test
 Frame extraction: Extracts individual frames from videos.
 Normalization & Resizing: Normalizes pixel values and resizes frames to the input dimensions for the VideoMAE model.
 
-##Evaluation
+### Evaluation:
 The model is evaluated after every epoch, showing:
 F1 Score
 Accuracy
 Validation Loss
 this information was used to monitor training progress and avoid overfitting.
 
-##Future Improvements
+### Future Improvements
 Real-Time Deployment: Convert the model into TensorFlow Lite for deployment on edge devices like Raspberry Pi.
 Complex Behavior Detection: Extend the model to detect other behaviors in retail settings.
-##Conclusion
+### Conclusion
 This project serves as a foundation for developing an AI-based video classification system that can be used to detect shoplifting in real-time. It leverages advanced deep learning models and preprocessing techniques to ensure high accuracy and efficiency.
 
