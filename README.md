@@ -39,7 +39,7 @@ This project implements an AI system to detect potential shoplifting in real-tim
 ├── Templates/
 │   ├── upload.html
 │   └── result.html
-```bash
+```
 
 ##Preprocessing
 DataSet Preprocess: modify the data set to be loaded in a list then splitted into three sections Train,Validation and Test
